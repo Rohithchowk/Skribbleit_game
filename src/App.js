@@ -18,12 +18,12 @@ function App() {
   }
   return (
     
-    <div >
+    <div className='App' >
     {
       renderAtHome && <Particles id='particles' options={particles} init={handleinit}/>
     }
     <Navbar></Navbar>
-    
+    <div className='App__main-page-content'>
     <Routes>
       <Route index path='/' element={<Home/>}/>
       <Route  path='/about' element={<About/>}/>
@@ -32,6 +32,7 @@ function App() {
       <Route  path='/skills' element={<Skills/>}/>
       <Route  path='/contact' element={<Contact/>}/>
     </Routes>
+    </div>
     </div>
   );
 }
