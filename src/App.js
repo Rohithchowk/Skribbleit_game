@@ -1,5 +1,7 @@
-import {Routes,Route} from 'react-router-dom';
+import {Routes,Route,useLocation} from 'react-router-dom';
 import  './app.css';
+import Particles from 'react-tsparticles';
+import {loadFull} from 'tsparticles'
 import Home from './Containers/Home';
 import About from './Containers/About';
 import Portfolio from './Containers/Portfolio';
@@ -7,9 +9,19 @@ import Resume from './Containers/Resume';
 import Skills from './Containers/Skills';
 import Contact from './Containers/Contact';
 import Navbar from './Components/Navbar/index';
+import particles from './utils/Particles'
 function App() {
+  const location=useLocation(); 
+  const renderAtHome=location.pathname==="/";
+  const handleinit= async(main)=>{
+      await loadFull(main);
+  }
   return (
+    
     <div >
+    {
+      renderAtHome && <Particles id='particles' options={particles} init={handleinit}/>
+    }
     <Navbar></Navbar>
     
     <Routes>
