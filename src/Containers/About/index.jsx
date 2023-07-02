@@ -7,6 +7,10 @@ import {DiCss3} from 'react-icons/di';
 import {BsDatabase} from 'react-icons/bs';
 import {FaDev} from 'react-icons/fa';
 import {BsGit} from 'react-icons/bs';
+import {FaLinkedin} from 'react-icons/fa';
+import { FaInstagram} from "react-icons/fa";
+import { AiOutlineGithub} from "react-icons/ai";
+import { Stack } from "@mui/material";
 
 import './style.css'
 const About=()=>{
@@ -57,6 +61,7 @@ const About=()=>{
         </Animate>
         </div>
         <div className="about__content_service">
+        <Stack direction="column">
         <Animate
         play
         duration={1.5}
@@ -83,6 +88,13 @@ const About=()=>{
             </div>
             </div>
             </Animate>
+            <div className="socials">
+         <a href="https://www.instagram.com/_._.ankur._.__/"> <FaInstagram color="#E4405F" size="50px"/> </a>
+         <a href="https://www.linkedin.com/in/ankur-srivastava-467384233"> <FaLinkedin color="#0077B5" size="50px" style={{"margin-left":"15px"}}/> </a>
+         <a href="https://github.com/Ankurallin1"> <AiOutlineGithub color="#fff" size="50px" style={{"margin-left":"15px"}}/> </a>
+
+          </div>
+          </Stack>
         </div>
         
         </div>
