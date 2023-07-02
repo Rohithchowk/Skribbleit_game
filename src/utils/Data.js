@@ -6,7 +6,7 @@
     },
     {
         label:'About me',
-        to:'/'
+        to:'/about'
 
     },
     {
