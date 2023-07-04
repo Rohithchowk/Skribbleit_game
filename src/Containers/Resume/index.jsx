@@ -1,6 +1,6 @@
 import React from "react";
 import PageContainer from "../../Components/PageHeaderContainer/index";
-import { BsInfoCircleFill } from "react-icons/bs";
+import { BsPeopleFill } from "react-icons/bs";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -15,7 +15,7 @@ const Resume = () => {
     <section id="resume" className="resume">
       <PageContainer
                 HeaderText="My Resume"
-                icon={<BsInfoCircleFill color="#50ceb1" size={40} />}
+                icon={<BsPeopleFill color="#50ceb1" size={40} />}
             />
       <div className="timeline">
         <div className="timeline__experience">

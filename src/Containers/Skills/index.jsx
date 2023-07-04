@@ -1,4 +1,4 @@
-import { BsInfoCircleFill } from 'react-icons/bs';
+import { GiSkills } from 'react-icons/gi';
 import PageContainer from "../../Components/PageHeaderContainer";
 import { skillsData } from '../../utils/SkillsInfo';
 import { Animate } from 'react-simple-animate';
@@ -10,7 +10,7 @@ const Skills = () => {
         <section id="skills" className="skills">
             <PageContainer
                 HeaderText="My Skills"
-                icon={<BsInfoCircleFill color="#50ceb1" size={40} />}
+                icon={<GiSkills color="#50ceb1" size={40} />}
             />
             <div className='skills__content-wrapper'>
                 {

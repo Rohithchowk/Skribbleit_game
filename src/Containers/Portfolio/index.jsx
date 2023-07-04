@@ -1,4 +1,4 @@
-import {BsInfoCircleFill} from 'react-icons/bs';
+import {AiFillBackward} from 'react-icons/ai';
 import PageContainer from "../../Components/PageHeaderContainer";
 import {portfolioData} from '../../utils/PortfolioData';
 import {filterData} from '../../utils/PortfolioData';
@@ -19,7 +19,7 @@ console.log(filterItems);
         <section id="portfolio" className="portfolio">
         <PageContainer 
         HeaderText="My Portfolio" 
-        icon={<BsInfoCircleFill color="#50ceb1" size={40}/>}
+        icon={<AiFillBackward color="#50ceb1" size={40}/>}
         />
         <div className="portfolio__content">
             <ul className='portfolio__content__filter'>
