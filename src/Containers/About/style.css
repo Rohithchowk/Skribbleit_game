@@ -91,12 +91,7 @@ span.value
     left: -8%;
     top: 41%;
 } 
-.socials{
-    margin-top:70px ;
-    align-items: center;
-    margin-left:70px ;
-    justify-content: space-between;
-  }
+
 @keyframes serviceRotation {
     100% {
         transform: rotate(360deg);

@@ -88,12 +88,7 @@ const About=()=>{
             </div>
             </div>
             </Animate>
-            <div className="socials">
-         <a href="https://www.instagram.com/_._.ankur._.__/"> <FaInstagram color="#E4405F" size="50px"/> </a>
-         <a href="https://www.linkedin.com/in/ankur-srivastava-467384233"> <FaLinkedin color="#0077B5" size="50px" style={{"margin-left":"15px"}}/> </a>
-         <a href="https://github.com/Ankurallin1"> <AiOutlineGithub color="#fff" size="50px" style={{"margin-left":"15px"}}/> </a>
-
-          </div>
+            
           </Stack>
         </div>
         
