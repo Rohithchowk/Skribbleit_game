@@ -10,8 +10,8 @@
 
     },
     {
-        label:'Skills',
-        to:'/skills'
+        label:'Socials',
+        to:'/socials'
 
     },
     {
