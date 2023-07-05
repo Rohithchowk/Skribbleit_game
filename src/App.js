@@ -6,7 +6,7 @@ import Home from './Containers/Home';
 import About from './Containers/About';
 import Portfolio from './Containers/Portfolio';
 import Resume from './Containers/Resume';
-import Skills from './Containers/Skills';
+import Socials from './Containers/Socials';
 import Contact from './Containers/Contact';
 import Navbar from './Components/Navbar/index';
 import particles from './utils/Particles'
@@ -29,7 +29,7 @@ function App() {
       <Route  path='/about' element={<About/>}/>
       <Route  path='/portfolio' element={<Portfolio/>}/>
       <Route  path='/resume' element={<Resume/>}/>
-      <Route  path='/skills' element={<Skills/>}/>
+      <Route  path='/socials' element={<Socials/>}/>
       <Route  path='/contact' element={<Contact/>}/>
     </Routes>
     </div>
