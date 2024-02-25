@@ -26,10 +26,10 @@ function App() {
     <div className='App__main-page-content'>
     <Routes>
       <Route index path='/' element={<Home/>}/>
-      <Route  path='/about' element={<About/>}/>
+      <Route  path='/Easy' element={<About/>}/>
       <Route  path='/portfolio' element={<Portfolio/>}/>
-      <Route  path='/resume' element={<Resume/>}/>
-      <Route  path='/socials' element={<Socials/>}/>
+      <Route  path='/Hard' element={<Resume/>}/>
+      <Route  path='/Medium' element={<Socials/>}/>
       <Route  path='/contact' element={<Contact/>}/>
     </Routes>
     </div>

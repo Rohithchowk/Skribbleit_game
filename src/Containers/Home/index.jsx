@@ -22,9 +22,9 @@ const handleDownload = () => {
     <section id="home" className="home">
       <div className="home__text-wrapper">
         <h1>
-          Hello, I'm Ankur
+           Welcome to Tecstasy2k24!!!
           <br />
-          Mern stack developer
+          Skribble It
         </h1>
       </div>
       <Animate
@@ -40,9 +40,10 @@ const handleDownload = () => {
       >
         <div className="home__contact-me">
           <Stack direction="column">
-          <button onClick={handleLink}>Hire me</button>
+          <button onClick={()=>{navigate('/Easy')}}>Easy</button>
+          <button onClick={()=>{navigate('/Medium')}}>Medium</button>
+          <button onClick={()=>{navigate('/Hard')}}>Hard</button>
 
-          <button onClick={handleDownload} className="cv">Download CV</button>
           </Stack>
         </div>
       </Animate>

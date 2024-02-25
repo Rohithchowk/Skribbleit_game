@@ -1,7 +1,7 @@
 export const personalDetails = [
     {
       label: "Name",
-      value: "Ankur Srivastava",
+      value: "Skribble It",
     },
     {
       label: "Age",

@@ -5,29 +5,20 @@
 
     },
     {
-        label:'About me',
-        to:'/about'
+        label:'Easy',
+        to:'/Easy'
 
     },
     {
-        label:'Socials',
-        to:'/socials'
+        label:'Medium',
+        to:'/Medium'
 
     },
     {
-        label:'Resume',
-        to:'/resume'
+        label:'Hard',
+        to:'/Hard'
 
     },
-    {
-        label:'Contact',
-        to:'/contact'
-
-    },
-    {
-        label:'Portfolio',
-        to:'/portfolio'
-
-    },
+   
 ];
 export default Data;
